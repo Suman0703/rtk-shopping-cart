@@ -1,16 +1,73 @@
-# React + Vite
+# 🛒 RTK Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scalable and modern e-commerce shopping cart application built using **React, Redux Toolkit, Vite, Tailwind CSS, and React Router**.  
+This project demonstrates industry-standard state management, authentication flow, and clean frontend architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+RTK Shopping Cart is a frontend-focused application designed to showcase how **Redux Toolkit simplifies global state management** in real-world scenarios like cart handling and user authentication.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project emphasizes:
+- Clean architecture
+- Reusable components
+- Predictable state management
+- Performance optimization using modern tools
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 🔐 Authentication
+- User login system
+- Auth state managed via Redux Toolkit
+- Scalable structure for future JWT/backend integration
+
+### 🛒 Cart Management
+- Add items to cart
+- Remove items from cart
+- Increase / decrease item quantity
+- Delete specific items
+- Clear entire cart
+
+### 📊 Derived State
+- Total cart items count
+- Total price calculation
+
+### 🎨 UI & UX
+- Responsive design with Tailwind CSS
+- Clean and minimal interface
+- Optimized rendering
+
+### 🔄 Routing
+- Page navigation using React Router
+- Structured routing setup
+
+---
+
+## 🏗️ Tech Stack
+
+| Category            | Technology              |
+|--------------------|------------------------|
+| Frontend           | React + Vite           |
+| State Management   | Redux Toolkit          |
+| Routing            | React Router           |
+| Styling            | Tailwind CSS           |
+
+---
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Suman0703/rtk-shopping-cart
+```
+
+## 🌐 Live Demo
+
+🔗 https://rtk-shopping-cart-puce.vercel.app/
+
+> Deployed using Vercel for fast and optimized performance.
