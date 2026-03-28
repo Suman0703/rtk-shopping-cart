@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
+import cartReducer from './cartSlice'
+import productsReducer from './productsSlice'
+import authReducer from './authSlice'
 
-// We'll import slices here later — for now the store is empty
 export const store = configureStore({
   reducer: {
-    // cart: cartReducer      ← will add in Step 4
-    // products: productsReducer  ← will add in Step 6
-    // auth: authReducer      ← will add in Step 9
+    cart: cartReducer,
+    products: productsReducer,
+    auth: authReducer,
   },
 })

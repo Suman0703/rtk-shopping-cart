@@ -1,13 +1,15 @@
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import CartDrawer from './components/CartDrawer'
 import Home from './pages/Home'
 import CartPage from './pages/CartPage'
 import LoginPage from './pages/LoginPage'
 
-// Layout wraps every page — Navbar will go here later
 const Layout = () => {
   return (
     <div>
-      {/* Navbar will go here in Step 5 */}
+      <Navbar />
+      <CartDrawer />
       <main>
         <Outlet />
       </main>
